@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import "../styles/ProjectsSection.css"
+import imagePath from "../assets/b3-CrJAdjaQ.webp";
 
 function ProjectsSection() {
   const [hoveredProject, setHoveredProject] = useState(null)
@@ -10,7 +11,7 @@ function ProjectsSection() {
     {
       title: "Solar-Vortex",
       description: "Leverage state-of-the-art 3D visualizations and real-time accurate solar metrics to empower your energy decisions and boost sustainability.",
-      image: "/src/assets/b3-CrJAdjaQ.webp",
+      image: imagePath,
       tags: ["React", "DeckGL","OpenGL"],
       liveLink: "https://solar-vortex.github.io/",
       githubLink: "https://github.com/solar-vortex",
