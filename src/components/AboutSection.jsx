@@ -39,7 +39,7 @@ I thrive on solving real-world challenges through technology and am always eager
               </svg>
             </div>
             <h4>Education</h4>
-            <p>Bachelor of Engineering (Ongoing) – Third Year</p>
+            <p>Bachelor of Engineering (Ongoing) – Fourth Year</p>
             <span>Ajeenkya DY Patil School Of Engineering, 2026</span>
           </div>
 

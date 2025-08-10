@@ -3,6 +3,7 @@
 import { useState } from "react"
 import "../styles/ProjectsSection.css"
 import imagePath from "../assets/b3-CrJAdjaQ.webp";
+import imagePath1 from "../assets/image.png";
 
 function ProjectsSection() {
   const [hoveredProject, setHoveredProject] = useState(null)
@@ -17,15 +18,15 @@ function ProjectsSection() {
       githubLink: "https://github.com/solar-vortex",
       color: "pink",
     },
-    // {
-    //   title: "Project Two",
-    //   description: "An e-commerce platform with product management and payment integration.",
-    //   image: "/placeholder.svg?height=300&width=500",
-    //   tags: ["React", "Tailwind CSS", "Stripe"],
-    //   liveLink: "#",
-    //   githubLink: "#",
-    //   color: "purple",
-    // },
+    {
+      title: "Image Captioning",
+      description: "An interactive Streamlit-based image captioning tool that lets users upload any photo and instantly generates a clear, natural-language description of its content.",
+      image: imagePath1,
+      tags: ["Pytorch", "Streamlit", "Transformers"],
+      liveLink: "https://image-captioning-t-mv8xgag4dxxyrbsefjyuzu.streamlit.app/",
+      githubLink: "https://github.com/sagar9955/image-captioning-t/blob/main/image_captioning_.py",
+      color: "purple",
+    },
     // {
     //   title: "Project Three",
     //   description: "A social media dashboard for content creators to manage their online presence.",
