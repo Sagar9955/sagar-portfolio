@@ -5,7 +5,7 @@ function AboutSection() {
     <section id="about" className="about-section">
       <div className="section-header">
         <h2 className="section-title">About Me</h2>
-        <p className="section-subtitle">Hi, I'm Sagar Singh, a third-year engineering student passionate about geospatial technology, 3D visualization, and renewable energy solutions. I specialize in integrating GIS, web development, and data analysis to create innovative applications. My primary interests lie in 3D city modeling, solar energy assessment, and interactive geospatial web applications.
+        <p className="section-subtitle">Hi, I'm Sagar Singh, a Final-year engineering student passionate about geospatial technology, 3D visualization, and renewable energy solutions. I specialize in integrating GIS, web development, and data analysis to create innovative applications. My primary interests lie in 3D city modeling, solar energy assessment, and interactive geospatial web applications.
 
 I thrive on solving real-world challenges through technology and am always eager to learn and experiment with new tools.</p>
       </div>
