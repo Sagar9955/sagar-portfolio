@@ -1,4 +1,5 @@
 import "../styles/HeroSection.css"
+import profilePic from "../assets/profile.jpg"
 
 function HeroSection() {
   return (
@@ -11,34 +12,36 @@ function HeroSection() {
 
       <div className="hero-container">
         <div className="hero-content">
-          {/* <div className="hero-tags">
-            <span className="hero-tag">Web Developer</span>
-            <span className="hero-tag">Designer</span>
-          </div> */}
+
+          <div className="hero-tags">
+            <span className="hero-tag">AI Engineer</span>
+            <span className="hero-tag">Developer</span>
+          </div>
 
           <h1 className="hero-title">
             Hi, I'm <span className="gradient-text">Sagar Singh</span>
           </h1>
 
           <p className="hero-description">
-            I create beautiful, functional websites and applications with a focus on user experience and modern design.
+            I specialize in Artificial Intelligence — transforming ideas into intelligent solutions using machine learning and data-driven systems. 
+            I also build modern applications that bring those AI capabilities into the real world.
           </p>
 
           <div className="hero-buttons">
             <a href="#contact" className="button primary-button">
-              Get in touch
+              Get in Touch
             </a>
             <a href="#projects" className="button secondary-button">
-              View my work
+              View My Work
             </a>
           </div>
         </div>
 
-        {/* <div className="hero-image-container">
+        <div className="hero-image-container">
           <div className="hero-image-wrapper">
-            <img src="/placeholder.svg?height=400&width=400" alt="Profile" className="hero-image" />
+            <img src={profilePic} alt="Profile" className="hero-image" />
           </div>
-        </div> */}
+        </div>
       </div>
 
       <a href="#about" className="scroll-down" aria-label="Scroll down">
@@ -52,4 +55,3 @@ function HeroSection() {
 }
 
 export default HeroSection
-
