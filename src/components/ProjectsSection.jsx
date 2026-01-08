@@ -4,6 +4,7 @@ import { useState } from "react"
 import "../styles/ProjectsSection.css"
 import imagePath from "../assets/b3-CrJAdjaQ.webp";
 import imagePath1 from "../assets/image.png";
+import imagepath2 from "../assets/llm.png";
 
 function ProjectsSection() {
   const [hoveredProject, setHoveredProject] = useState(null)
@@ -27,15 +28,22 @@ function ProjectsSection() {
       githubLink: "https://github.com/sagar9955/image-captioning-t/blob/main/image_captioning_.py",
       color: "purple",
     },
-    // {
-    //   title: "Project Three",
-    //   description: "A social media dashboard for content creators to manage their online presence.",
-    //   image: "/placeholder.svg?height=300&width=500",
-    //   tags: ["Vue.js", "Firebase", "Chart.js"],
-    //   liveLink: "#",
-    //   githubLink: "#",
-    //   color: "cyan",
-    // },
+    {
+      title: "100M-Parameter Language Model (From Scratch)",
+     description: "100M-parameter GPT-style language model trained from scratch with a custom tokenizer and GPU-optimized training.",
+      image: imagepath2,
+      tags: [
+    "Large Language Models",
+    "Natural Language Processing",
+    "Transformers",
+    "Deep Learning",
+    "PyTorch",
+    ],
+  liveLink: "https://huggingface.co/sagar118/Custom-LLM-100M",
+  githubLink: "https://huggingface.co/sagar118/Custom-LLM-100M",
+
+      color: "cyan",
+    },
     // {
     //   title: "Project Four",
     //   description: "A mobile-first weather application with real-time updates and forecasts.",
